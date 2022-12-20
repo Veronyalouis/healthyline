@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f7f7f7;
+}
+
+img{
+    width: 100%;
+}
+
+.header{
+    position: sticky;
+    z-index: 500;
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+}
+
+.header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    
+}
+
+.header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+}
+.how{
+    margin-top: 2%;
+}
+
+.how .how-container{
+    display: flex;
+    justify-content: space-around;
+}
+.how .how-container .img{
+    background-image: url(img/2.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-basis: 45%;
+    height: 80vh;
+    border-radius: 5px;
+    position: relative;
+}
+.how .how-container .img .head{
+    position: absolute;
+    top: 70%;
+    padding: 18px;
+    color: #000;
+}
+    
+.how .how-container .second{
+    flex-basis: 40%;
+}
+
+.by .icons{
+    display: flex;
+    justify-content: space-between;
+}
+.by .icons .box img{
+    width: 100%;
+
+}
+.by .icons .box{
+    flex-basis: 15%;
+    text-align: center;
+}
+
+
+
+
+.in .this {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.in .this .box{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 45%;
+    margin-bottom: 3%;
+}
+
+.in .this .box .img{
+    flex-basis: 70%;
+}
+
+.in .this .box .text{
+    margin-left: 15px;
+}
+
+.in .this .box .text h2{
+    font-size: 24px;
+    line-height: 30px;
+}
+.to {
+    display: flex;
+    
+
+}
+.want .to .img{
+    width: 500px;
+    min-width: 500px;
+
+}
+.want .to .pump {
+   margin-left: 15px;
+
+}
+.want .to .pump h2{
+    width: 100%;
+    min-height: 211px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    max-width: 1000px;
+    margin-bottom: 0;
+    text-align: left;
+    min-height: auto;
+    padding: 24px 20px;
+    align-items: flex-start;
+}
+.want .to .pump p{
+    width: 100%;
+    min-height: 211px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    max-width: 1000px;
+    margin-bottom: 0;
+    text-align: left;
+    min-height: auto;
+    padding: 24px 20px;
+    align-items: flex-start;
+    
+}
+.more .icons{
+    display: flex;
+    justify-content: space-between;
+}
+.more .icons .box img{
+    width: 100%;
+}
+.more .icons .box{
+    flex-basis: 15%;
+    text-align: start;
+}
+.conditions .icons{
+    display: flex;
+    justify-content: space-between;
+}
+.conditions .icons .box img{
+    width: 100%;
+}
+.conditions .icons .box{
+    flex-basis: 15%;
+    text-align: start; 
+}
+
+
+.and .icons{
+    display: flex;
+    justify-content: space-between;
+}
+.and .icons .box img{
+    width: 100%;
+}
+.and .icons .box{
+    flex-basis: 15%;
+    text-align: start;  
+}
+
+.sport .icons{
+
+    display: flex;
+    justify-content: space-between;
+}
+.sport .icons .box img{
+    user-select: none;
+    max-width: 100%;
+    box-sizing: inherit;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.sport .icons .box{
+    flex-basis: 15%;
+    text-align: start;
+}
+.science{
+    background-color: #dcdbdb;
+    
+}
+.science .matter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.science .matter .us{
+    flex-basis: 50%;
+}
+.science .matter .icons{
+    width: 50%;
+}
+.our .icons{
+    display: flex;
+    justify-content: space-between;
+}
+.our .icons .box img{
+    width: 100%;
+}
+.our .icons .box{
+    flex-basis: 15%;
+    text-align: start;
+}
